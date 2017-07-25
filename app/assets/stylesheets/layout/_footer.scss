@@ -1,1 +1,58 @@
-// Your footer style
+.page-footer {
+  color: black;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: rgba(240, 240, 240, 0.3);
+  z-index: 100;
+}
+
+.footer-copyright {
+ text-align: center;
+ font-size: 14px;
+ margin-bottom: 5px;
+}
+
+.fa-facebook:hover .fa-twitter:hover{
+  color: #FD8D34;
+  transition: 0.2s ease-in-out;
+}
+
+.find-us {
+  padding: 10px 10vw 10px 10vw;
+  ul {
+    margin-top: 10px;
+  }
+  li {
+    display: inline;
+  }
+}
+
+footer .fa {
+  color: black;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.disclaimer {
+  font-weight: lighter;
+  position: relative;
+  padding: 10px 10vw 10px 10vw;
+  p {
+    margin-top: 10px;
+  }
+}
+
+footer .row {
+  padding: 0;
+  margin: 0;
+}
+
+.social-logo {
+  padding: 0;
+  display: flex
+}
+
