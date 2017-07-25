@@ -8,6 +8,7 @@ gem 'pg'
 gem 'puma'
 gem 'rails', '5.0.4'
 gem 'redis'
+gem 'omniauth-facebook'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
@@ -16,7 +17,27 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
-gem 'omniauth-facebook'
+gem 'google_places'
+gem 'json'
+gem 'coffee-rails'
+gem 'gmaps4rails'
+gem 'bootstrap-toggle-rails'
+gem 'pg_search'
+gem 'cloudinary'
+gem 'carrierwave'
+gem "geocoder"
+gem 'mini_magick'
+gem 'fog-aws'
+
+gem 'rest-client', '~> 2.0', '>= 2.0.2'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-underscore'
+end
+
+group :production do
+  gem 'rails_12factor'
+end
 
 group :development, :test do
   gem 'capybara'
