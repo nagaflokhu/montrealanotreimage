@@ -1,17 +1,32 @@
-<div class="banner" style="background-image: url('<%= image_path 'Fond_ville3.png' %>');">
+<div class="banner" style="background-image: url('<%= image_path 'Fond_ville.png' %>');">
   <div class="banner-content">
-
 <div class="logo-grand">
   <%= image_tag "logo_grand.png" %>
 </div>
+<div class="col m12 hidden-xs hidden-sm">
+        <%= image_tag "background_fille.png", id: "left-img" %>
+
+        <%= image_tag "background_gars.png", id: "right-img" %>
+</div>
     <h1>Découvre les multiples<br> visages de Montréal!</h1>
     <div class="inscription">
-    <a href="http://www.iciela.org/wp/mtl-a-notreimage/" class="navbar-wagon-item navbar-wagon-button btn inscription">INSCRIS-TOI!</a>
+    <a href="http://www.iciela.org/wp/mtl-a-notreimage/" class="banner-wagon-item banner-wagon-button inscription">INSCRIS-TOI!</a>
     </div>
-    <h3>Camp de jour interculturel<br> pour les 12-17 ans<br>-<br>7 au 18 août 2017</h3>
+    <h3>Une expérience unique<br>d'immersion interculturelle<br><br>10 jours: 7 au 18 août</h3>
+    <div class='marge-dessus'>
+    <div class='icon-scroll'></div></div>
   </div>
 </div>
 
+
+<% content_for(:after_js) do %>
+  <script>
+    $(document).ready(function() {
+      $("#left-img").css({"left": -100});
+      $("#right-img").css({"right": -0});
+    });
+  </script>
+<% end %>
 
 
 

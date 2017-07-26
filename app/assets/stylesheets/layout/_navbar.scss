@@ -60,11 +60,14 @@
   color: white;
   font-size: 18px;
   border: 2px solid #D23333;
+  box-shadow: 0px 0px 50px #E6E6E6;
 }
 .navbar-wagon-button:hover {
   color: white;
-  background: #D23333;
+  background: #D23311;
   border-color: #ac2626;
+  text-decoration: none;
+
 }
 
 /* Navbar search form */
