@@ -17,4 +17,42 @@
   <!-- Section become a seller -->
 </div>
 
+<section >
+  <div class="home-text-section">
+    <div class="home-how">
+      <div class="box-placeholder">1</div>
+      <div class="box-placeholder">2</div>
+      <div class="box-placeholder">3</div>
+    </div>
+    <div class="button-banner">
+     <%= link_to new_user_registration_path do %>
+     <h4>JOIN</h4>
+     <% end %>
+   </div>
+  </div>
+
+  <div class="howitwork" style="background-image: linear-gradient(135deg, rgba(255,255,255,0.5) 20%,rgba(246,239,248,0.5) 23%,rgba(152,83,179,0.31) 53%,rgba(150,88,181,0.3) 54%,rgba(86,229,235,0.2) 81%,rgba(74,255,245,0.2) 86%,rgba(255,255,255,0.4) 100%,rgba(255,255,255,0.4) 101%), url('<%= image_path 'join_community_photo.png' %>');">
+    <div class = "home-stats">
+      <h2>Another quote on how productive it is <br/>
+       to work with  other people
+       </h2>
+       <ul>
+        <li>15 Cities</li>
+        <li>358 Worplaces</li>
+        <li>2870 Checkin</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-103444020-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
