@@ -1,21 +1,28 @@
 <div class="banner" style="background-image: url('<%= image_path 'Fond_ville.png' %>');">
-  <div class="banner-content">
-<div class="logo-grand">
-<br><br>
-  <%= image_tag("logo_grand.png", width:'250') %>
-</div>
-<div class="col m12 hidden-xs hidden-sm">
-        <%= image_tag "background_fille.png", id: "left-img" %>
 
-        <%= image_tag "background_gars.png", id: "right-img" %>
-</div>
-    <h1>Découvre les multiples<br> visages de Montréal!</h1>
-    <div class="inscription">
-    <a href="http://www.iciela.org/wp/mtl-a-notreimage/" class="banner-wagon-item banner-wagon-button inscription">INSCRIS-TOI!</a>
-    </div>
-    <h3>Participe à une aventure<br>d'immersion interculturelle<br><br>10 jours: 7 au 18 août</h3><h2>C'est gratuit!</h2>
-
+<div class="banner-content">
+  <div class="logo-grand">
+    <%= image_tag("logo_grand.png", width:'250', alt:"Montréal à notre image") %>
   </div>
+
+  <div class="col m12 hidden-xs hidden-sm">
+    <%= image_tag "background_fille.png", id: "left-img" %>
+    <%= image_tag "background_gars.png", id: "right-img" %>
+  </div>
+
+    <h1>Découvre les multiples visages de Montréal!</h1>
+
+  <div class="inscription">
+    <a href="http://www.iciela.org/wp/mtl-a-notreimage/" class="banner-wagon-item banner-wagon-button inscription">INSCRIS-TOI!</a>
+  </div>
+
+  <div class="col m12 hidden-xs hidden-sm">
+    <h3>Participe à une aventure<br>d'immersion interculturelle</h3>
+  </div>
+
+    <h3>10 jours: 7 au 18 août</h3><h2>C'est gratuit!</h2>
+
+</div>
 
 <% content_for(:after_js) do %>
   <script>
