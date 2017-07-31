@@ -10,6 +10,17 @@
   background: #59d4fd;
 }
 
+.section3 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    vertical-align: center;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 45vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
 .section4 {
   background: #3ee2c1;
   padding: 30px;
@@ -126,26 +137,18 @@ h4 {
 /// /// EXPLANATION /// ///
 
 .howitwork {
-  position: relative;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
   background-size: cover;
-  background-position: bottom;
-  margin-top: 0vh;
+  background-position: middle;
   color: rgba(255, 255, 255, 0.9);
-  height: 60vh;
-  width: 100%;
-
   text-align: center;
   h2 {
     font-weight: bold;
+    max-width: 800px;
   }
 }
 .home-stats ul {
   margin-top: 60px;
-  display: inline-flex;
+
   font-size: 32px;
   font-weight: bold;
   list-style-type: none;
